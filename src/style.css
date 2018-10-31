@@ -1,0 +1,28 @@
+.api-display{
+    display: flex;
+}
+
+.left{
+    border: 1px solid black;
+    flex-grow: 1;
+    padding: 50px 50px;
+}
+
+.api-data{
+    padding: 5px;
+    margin: 1px;
+    background-color: cyan;
+}
+
+.user-table{
+    padding: 100px;
+}
+
+.user-table tr{
+    background-color: khaki;
+}
+
+.right{
+    flex-grow: 1;
+    float: right;
+}
